@@ -1,0 +1,79 @@
+.block {
+  width: 24.5px;
+  height: 28px;
+  color:#ffca42 ;
+}
+.text {
+  font-size: 26px;
+  color: #f5f8fc;
+}
+
+/* .order_block {
+  width: 222px;
+  height: 66px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+} */
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+  padding: 10px;
+  height: 110px;
+  /* background-color: aqua; */
+  /* width: 100%; */
+}
+.link_block {
+  margin: 0 60px 0 0;
+}
+.pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* .block {
+  color: #ffca42;
+} */
+.pages_block1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pages_block2 {
+  /* width: 75%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.order_block button {
+  width: 222px;
+  height: 66px;
+  border: 1px solid black;
+  border: none;
+  background-color: yellow;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: cardo;
+  color: #1b3764;
+}
+.order_block button:hover {
+  color: red;
+  cursor: pointer;
+}
+.link_block a {
+  padding: 5px 10px;
+  /* border: 2px solid white; */
+  color: #f5f8fc;
+  text-decoration: none;
+  font-size: 26px;
+}
+.active {
+  color: yellow;
+}

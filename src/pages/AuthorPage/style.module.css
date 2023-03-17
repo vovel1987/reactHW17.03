@@ -1,0 +1,121 @@
+.block_1 {
+  display: flex;
+  padding: 20px;
+  margin-top: 90px;
+}
+.container {
+  background-color: white;
+  box-sizing: border-box;
+}
+.text {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: cardo;
+  color: #1b3764;
+  text-align: center;
+
+  padding-top: 70px;
+}
+.author {
+  width: 525px;
+  height: 620px;
+  position: absolute;
+  top: -60px;
+  right: 50px;
+}
+.line {
+  width: 50px;
+  height: 3px;
+  background-color: #ffca42;
+  margin: auto;
+}
+.block_2 {
+  height: 960px;
+  background: #f5f8fc;
+  border-radius: 0px;
+  position: relative;
+}
+.author_block {
+  width: 545px;
+  height: 640px;
+  border: 10px solid rgba(255, 202, 66, 1);
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
+}
+.descr {
+  width: 560px;
+  overflow-wrap: break-word;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: inter;
+  color: rgba(150, 154, 160, 1);
+}
+.about {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: cardo;
+  color: rgba(27, 55, 100, 1);
+}
+.block_3 {
+  position: absolute;
+  left: 760px;
+  top: 195px;
+}
+.ul_block {
+  border-right: 1px solid yellow;
+  padding: 0;
+  margin: 0;
+  padding-right: 10px;
+}
+.ul_container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.li_1 {
+  font-size: 54px;
+  font-weight: 400;
+  font-family: cardo;
+  color: rgba(27, 55, 100, 1);
+  list-style: none;
+}
+.li_2 {
+  margin-top: 10px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: inter;
+  color: rgba(150, 154, 160, 1);
+}
+.qr_block{
+    margin-top: 50px;
+    width: 480px;
+    height: 160px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(27, 55, 100, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.qr_code{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+}
+.qr_name{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: cardo;
+    color: rgba(255, 202, 66, 1);
+}
+.qr_text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: inter;
+    color: rgba(180, 199, 231, 1);
+}

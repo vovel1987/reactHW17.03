@@ -1,0 +1,36 @@
+.icon {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_block {
+  display: flex;
+  gap: 10px;
+}
+
+.icon svg {
+  color: black;
+}
+/* .pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+/* .pages_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  } */
+/* .text {
+  font-size: 26px;
+  color: #f5f8fc;
+}
+.block {
+  width: 24.5px;
+  height: 28px;
+  color: #ffca42;
+} */

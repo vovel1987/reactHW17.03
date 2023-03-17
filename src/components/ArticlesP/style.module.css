@@ -1,0 +1,39 @@
+.container{
+    width: 420px;
+    height: 590px;
+    background-color: white;
+   
+}
+
+.container img{
+    width: 420px;
+    height: 350px;
+    object-fit: contain;
+}
+.title{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: cardo;
+    color: rgba(27, 55, 100, 1);
+}
+.descr{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: inter;
+    color: rgba(150, 154, 160, 1);
+    background-color: white;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
+    color: rgba(27, 55, 100, 1);
+    margin-right: 0 auto;
+}
+.block{
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}

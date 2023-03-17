@@ -1,0 +1,23 @@
+.ul_block {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px 0;
+}
+.ul_block li {
+  list-style: none;
+}
+.li_1 {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: cardo;
+  color: #ffffff;
+}
+.li_2 {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: inter;
+  color: #b4c7e7;
+  width: 200px;
+  overflow-wrap: break-word;
+}

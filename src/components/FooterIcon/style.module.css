@@ -1,0 +1,18 @@
+
+.icon {
+    width: 55px;
+    height: 55px;
+    background-color:  #1b3764;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+  }
+  .icon_block {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon svg {
+    color:white;
+  }
